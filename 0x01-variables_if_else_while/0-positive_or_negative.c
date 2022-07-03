@@ -5,7 +5,6 @@
 /**
  * main - Entry point
  * Description: 'prints if variable n is positive or negative'
- * @n: variable to be checked
  *
  * Return: Always 0 (Success)
  */
