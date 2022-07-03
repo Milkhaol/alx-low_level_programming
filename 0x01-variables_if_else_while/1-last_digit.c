@@ -5,7 +5,7 @@
 
 /**
  * main - Entry point
- * Description: 'prints last digit of numbers and checks if
+ * Description: 'prints value and checks if last digit of numbers is
  * greater than 5, equal 0, or less than 6
  *
  * Return: Always 0 (Success)
