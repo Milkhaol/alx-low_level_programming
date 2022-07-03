@@ -2,13 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 /*
- * main - program that prints if variable n
- * is positive or negative.
+ * main - Entry point
+ * Description: prints if variable n is positive or negative
  * @n : variable to be checked
  *
  * Return: 0 if successful
  */
-int main(void)
+main(void)
 {
 		int n;
 
