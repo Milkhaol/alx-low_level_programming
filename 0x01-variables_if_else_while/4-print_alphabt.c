@@ -13,12 +13,10 @@ int main(void)
 	for (a = 'a'; a <= 'z'; a++)
 	{
 		if (a <= 'd' || a >= 'f'  && a <= 'p' || a >= 'r')
-		{
-			putchar(a);
-		}
-		{
-			putchar('\n');
-		}
+		putchar(a);
 	}
-	return (0);
+	{
+		putchar('\n');
+	}
+		return (0);
 }
