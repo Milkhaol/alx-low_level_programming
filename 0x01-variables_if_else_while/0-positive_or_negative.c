@@ -1,14 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
-/* more headers goes there */
-
-/** 
+/*
  * main - program that prints if variable n
  * is positive or negative.
+ * @n : variable to be checked
  *
- * Return : 0 if successful
+ * Return: 0 if successful
  */
 int main(void)
 {
@@ -16,7 +14,6 @@ int main(void)
 
 		srand(time(0));
 		n = rand() - RAND_MAX / 2;
-		/* your code goes there */
 		if (n > 0)
 		{
 			printf("%d is positive\n", n);
@@ -28,6 +25,7 @@ int main(void)
 		else
 		{
 			printf("%d is negative\n", n);
+
 		}
 		return (0);
 }
