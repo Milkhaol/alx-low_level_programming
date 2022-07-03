@@ -11,7 +11,7 @@ int main(void)
 	int a;
 
 	for (a = 'a'; a <= 'z'; a++)
-	while (a <= 'd' || a >= 'f'  && a <= 'p' || a >= 'r')
+	if (a <= 'd' || a >= 'f'  && a <= 'p' || a >= 'r')
 	{
 		putchar(a);
 	}
