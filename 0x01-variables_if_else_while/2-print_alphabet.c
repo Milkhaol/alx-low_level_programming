@@ -6,12 +6,12 @@
  *
  * Return: Always 0 (Success)
  */
-char main(void)
+int main(void)
 {
-	char a;
-	char z;
+	int a;
+	int z;
 
-	for (a = 'a'; a <= z ; a++)
+	for (a = 'a'; a <= 'z' ; a++)
 	{
 		putchar(a);
 		putchar('\n');
