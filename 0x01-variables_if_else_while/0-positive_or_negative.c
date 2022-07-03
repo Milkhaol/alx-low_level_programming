@@ -1,14 +1,16 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
+
+/**
  * main - Entry point
- * Description: prints if variable n is positive or negative
- * @n : variable to be checked
+ * Description: 'prints if variable n is positive or negative'
+ * @n: variable to be checked
  *
- * Return: 0 if successful
+ * Return: Always 0 (Success)
  */
-main(void)
+
+int main(void) /* main prints out function */
 {
 		int n;
 
