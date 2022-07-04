@@ -9,9 +9,10 @@
  */
 int main(void)
 {
-	int a;
+	int a = 'a';
 
-	for (a = 'a'; a <= 'z'; a++)
+	while (a <= 'z')
+	a++;
 	{
 		if (a != 'e' && a != 'q')
 		{
