@@ -3,6 +3,7 @@
 /**
  * print_most_numbers - prints digits from 0-9
  * except 2 and 4.
+ * @c: digits description
  *
  * Return: void
  */
