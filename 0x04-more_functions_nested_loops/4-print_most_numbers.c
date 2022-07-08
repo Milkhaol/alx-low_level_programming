@@ -3,8 +3,6 @@
 /**
  * print_most_numbers - prints digits from 0-9
  * except 2 and 4.
- * @c: digits description
- *
  * Return: void
  */
 void print_most_numbers(void)
@@ -13,8 +11,8 @@ void print_most_numbers(void)
 
 	for (c = 48; c <= 58; c++)
 	{
-		if (c != 2 && c != 4)
-		_putchar(c);
+	if (c != 2 && c != 4)
+	_putchar(c);
 	}
 	_putchar('\n');
 }
