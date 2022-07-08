@@ -5,12 +5,10 @@
  * _isupper - checks for uppercase character
  * @c: Character description
  *
- * Return: Always 0
+ * Return: 0, otherwise 1
  */
 int _isupper(int c)
 {
-	char c;
-
 	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
